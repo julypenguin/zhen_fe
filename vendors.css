@@ -803,6 +803,9 @@ select {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
 .-m-2 {
   margin: -0.5rem;
 }
@@ -824,6 +827,10 @@ select {
 .my-32 {
   margin-top: 8rem;
   margin-bottom: 8rem;
+}
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .ml-4 {
   margin-left: 1rem;
@@ -914,6 +921,12 @@ select {
 }
 .ml-8 {
   margin-left: 2rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
+}
+.mr-0 {
+  margin-right: 0px;
 }
 .block {
   display: block;
@@ -1041,6 +1054,9 @@ select {
 .w-2\/3 {
   width: 66.666667%;
 }
+.w-8\/12 {
+  width: 66.666667%;
+}
 .w-60 {
   width: 15rem;
 }
@@ -1128,6 +1144,9 @@ select {
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 .flex-row-reverse {
   flex-direction: row-reverse;
@@ -2070,6 +2089,14 @@ select {
 }
 @media (min-width: 640px) {
 
+  .sm\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .sm\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -2101,6 +2128,10 @@ select {
 
   .sm\:-ml-8 {
     margin-left: -2rem;
+  }
+
+  .sm\:mr-8 {
+    margin-right: 2rem;
   }
 
   .sm\:flex {
@@ -2274,6 +2305,10 @@ select {
 
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
   }
 
   .md\:mt-0 {
@@ -2482,10 +2517,6 @@ select {
 
   .lg\:mt-16 {
     margin-top: 4rem;
-  }
-
-  .lg\:ml-24 {
-    margin-left: 6rem;
   }
 
   .lg\:block {
