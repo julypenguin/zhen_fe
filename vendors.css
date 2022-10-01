@@ -973,8 +973,8 @@ select {
 .h-8 {
   height: 2rem;
 }
-.h-screen {
-  height: 100vh;
+.h-main-phone {
+  height: calc(100vh - 120px);
 }
 .h-12 {
   height: 3rem;
@@ -1585,6 +1585,9 @@ select {
 }
 .pr-3 {
   padding-right: 0.75rem;
+}
+.pt-\[80\%\] {
+  padding-top: 80%;
 }
 .pt-40 {
   padding-top: 10rem;
@@ -2248,6 +2251,10 @@ select {
     padding-right: 2.5rem;
   }
 
+  .sm\:pt-\[60\%\] {
+    padding-top: 60%;
+  }
+
   .sm\:pt-144 {
     padding-top: 36rem;
   }
@@ -2327,6 +2334,10 @@ select {
     margin-top: 2rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -2341,6 +2352,10 @@ select {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-main-full {
+    height: calc(100vh - 60px);
   }
 
   .md\:h-80 {
@@ -2417,6 +2432,10 @@ select {
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .md\:pt-\[40\%\] {
+    padding-top: 40%;
   }
 
   .md\:pt-176 {
