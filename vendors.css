@@ -726,9 +726,6 @@ select {
 .pointer-events-none {
   pointer-events: none;
 }
-.static {
-  position: static;
-}
 .fixed {
   position: fixed;
 }
@@ -1164,9 +1161,6 @@ select {
 }
 .flex-shrink-0 {
   flex-shrink: 0;
-}
-.grow {
-  flex-grow: 1;
 }
 .origin-top-right {
   transform-origin: top right;
@@ -2301,10 +2295,6 @@ select {
 
   .sm\:mr-8 {
     margin-right: 2rem;
-  }
-
-  .sm\:block {
-    display: block;
   }
 
   .sm\:flex {
