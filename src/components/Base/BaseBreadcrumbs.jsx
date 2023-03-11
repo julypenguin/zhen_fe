@@ -9,7 +9,7 @@ const BaseBreadcrumbs = ({
 }) => {
     return (
         <nav className={className ? className : "flex"} aria-label="Breadcrumb">
-            <ol className="flex items-center space-x-4">
+            <ol className="flex items-center space-x-4 flex-wrap">
                 <li>
                     <div>
                         <NavLink to={homeLink || '#'} className="text-blue-500 hover:text-blue-600">

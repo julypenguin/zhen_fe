@@ -210,7 +210,7 @@ const ProductDetail = ({
 
             <div className='p-8 flex items-center flex-wrap flex-col'>
                 {detail.marketing_img.map(img => (
-                    <div key={img} className="flex-none w-96 pt-96 sm:w-144 sm:pt-144 md:w-176 md:pt-176 relative">
+                    <div key={img} className="flex-none w-full pt-[100%] sm:w-144 sm:pt-144 md:w-176 md:pt-176 relative">
                         <ProductImg
                             img={img}
                         />

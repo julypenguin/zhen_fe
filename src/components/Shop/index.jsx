@@ -63,7 +63,7 @@ const ShopPage = (props) => {
                     <Route path="/shop" render={(props) => <LeftSidebar {...props} parentCatsSid={parentCatsSid} setParentCatsSid={setParentCatsSid} />} />
                 </Switch>
 
-                <div className='w-full ml-6 divide-y divide-gray-200'>
+                <div className='w-full divide-y divide-gray-200 sm:ml-6'>
                     <React.Suspense fallback={<BaseSuspenseFallback />}>
                         <Switch>
                             <Route exact path="/shop/detail/:intl_id" render={(props) => <ProductDetail {...props} />} />
